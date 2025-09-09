@@ -47,7 +47,7 @@ jobs:
           docker run --rm -v $(pwd):/scanoss \
             ${{ env.DOCKER_REGISTRY }}:${{ env.SCANOSS_VERSION }} \
             scan ./ \
-            --key ${{ secrets.SCANOSS_API_KEY }} \
+            --key txnUfW0xwF0KI1U1RW5sDSBL \
             --format cyclonedx \
             -o cycloneDX.json
           echo "✅ SCANOSS scan completed"
