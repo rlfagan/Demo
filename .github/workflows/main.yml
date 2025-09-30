@@ -1,4 +1,4 @@
-name: SCANOSS Security Analysis Pipeline
+name: SCANOSS Security Analysis Pipeline.
 
 on:
   push:
